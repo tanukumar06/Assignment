@@ -1,0 +1,25 @@
+.footer{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #04519b;
+    color: white;
+    padding: 10px;
+}
+.content1{
+ flex-direction: row;
+ position: absolute;
+}
+.content2{
+ float: right;
+}
+@media (max-width : 900px){
+    .content1{
+        position: relative;
+        text-align: center;
+    }
+    .content2{
+        display: none;
+    }
+}

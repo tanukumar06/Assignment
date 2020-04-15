@@ -1,0 +1,39 @@
+.navbar{
+    background-color:#04519b;
+    height: 80px;
+}
+img{
+    width :  60px;
+    padding-top : 10px;
+    padding-left : 20px;
+}
+
+
+   #dropdown-screen{
+        position: absolute;
+        margin-top:-4%;
+        margin-left: 75%;
+ }
+ #dropdown-lang{
+    position: absolute;
+    margin-top:-4%;
+    margin-left: 87%;
+}
+@media (max-width : 900px){
+    #dropdown-screen{
+        display: none;
+    }
+    #dropdown-lang{
+        display: none;
+    }
+}
+
+@media(max-width : 1321px){
+    #dropdown-lang{
+      display: none;
+    }
+    #dropdown-screen{
+        display: none;
+    }
+    
+}
